@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'mailgunner', '~> 1.3.0'
+
 module ::Kernel
   def rails_master?
     ENV["RAILS_MASTER"]
